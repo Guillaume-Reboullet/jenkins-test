@@ -1,0 +1,17 @@
+.PHONY: all tests_run clean fclean
+
+all:
+	@echo ">>> Running make (build placeholder)"
+	@echo "Build completed."
+
+tests_run:
+	@echo ">>> Running tests_run"
+	@echo "All tests passed (dummy)."
+
+clean:
+	@echo ">>> Cleaning..."
+	@echo "Clean completed."
+
+fclean:
+	@echo ">>> Full clean (fclean)"
+	@echo "Fclean completed."
